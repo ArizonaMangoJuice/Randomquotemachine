@@ -1,0 +1,76 @@
+body{
+    background: black;
+}
+a{
+    font-family: Arial;
+    text-decoration: none;
+    color: white;
+}
+/*
+#outer-box{
+    display: inline-block;
+    background: red;
+    height: 15em;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+#inner-box{
+    display: block;
+    text-align: center;
+    width: 30em;
+    height: 15em;
+    background: white;
+    margin-top: 15em;
+    margin-left: auto;
+    margin-right: auto;
+}
+#author{
+    font-family: Arial;
+    display: block;
+    color: white;
+    text-align: center;
+}
+.quote{
+    display: block;
+    height: 7.5em;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.quote p{
+    margin-top: 2em;
+    padding: 1em; 
+}
+#links-left a{
+    display: inline-block;
+    margin-top: 2em;
+    margin-left: 2em;
+    padding: 1em 1.2em;
+    font-size: 18px;
+    float: left;
+    color: white;
+    background: black;
+    border-radius: 50%;
+}
+#links-left:hover a{
+    transition: 1s;
+    color: black;
+    background: white;
+}
+#links-right p{
+    display: inline-block;
+    margin-top: 3.1em;
+    margin-right: 2em;
+    padding: .5em 1em;
+    float: right;
+    color: white;
+    background: black;
+}
+#links-right p:hover{
+    transition: 1s;
+    color: black;
+    background: white;
+}
